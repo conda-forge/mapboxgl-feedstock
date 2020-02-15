@@ -9,7 +9,7 @@ source:
   sha256: 359133c20e1c635400965f491313ee003bba103926042790b13d27989ab30757
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
@@ -23,7 +23,7 @@ requirements:
     - colour
     - geojson
     - jinja2
-    - matplotlib
+    - matplotlib-base
     - ipython
     - requests
 
